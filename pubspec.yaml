@@ -24,8 +24,15 @@ flutter:
 
   assets:
     - assets/
-fonts:
-  - family: Sixtyfour
-    fonts:
-      - asset: fonts/Sixtyfour-Regular.ttf
+
+  fonts:
+    - family: Sixtyfour
+      fonts:
+        - asset: fonts/Sixtyfour-Regular.ttf
+        
+    - family: Workbench
+      fonts:
+        - asset: fonts/Workbench-Regular.ttf
+        
+
       

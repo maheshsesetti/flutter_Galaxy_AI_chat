@@ -43,7 +43,9 @@ class HomePage extends StatelessWidget {
                             Text(
                               "Galaxy Lite AI",
                               style: TextStyle(
-                                  fontSize: 20.sp, fontWeight: FontWeight.bold,fontFamily: 'Sixtyfour'),
+                                  fontSize: 20.sp,
+                                  fontWeight: FontWeight.bold,
+                                  ),
                             ),
                             const Icon(
                               Icons.image_search_rounded,
@@ -80,7 +82,7 @@ class HomePage extends StatelessWidget {
                                       Text(
                                         "${messages[index].parts?.first.text}",
                                         style: TextStyle(
-                                            fontSize: 20.sp,
+                                            fontSize: 18.sp,
                                             color: Colors.white),
                                       ),
                                     ],

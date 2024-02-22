@@ -20,12 +20,12 @@ class MainApp extends StatelessWidget {
         return MaterialApp(
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
-                fontFamily: 'Sixtyfour',
+                fontFamily: 'Workbench',
                 brightness: Brightness.dark,
                 scaffoldBackgroundColor: Colors.grey.shade400,
                 primaryColor: Colors.cyan.shade400,
                 textTheme:
-                    Typography.englishLike2018.apply(fontSizeFactor: 1.sp)),
+                    Typography.englishLike2018.apply(fontSizeFactor: 1.sp,fontFamily: 'Workbench')),
             home: child);
       },
       child: const HomePage(),
